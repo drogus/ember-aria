@@ -6,9 +6,7 @@ properties, for example `aria-checked` may be obtained from `checked`.
 
 ## Installation
 
-* `git clone https://github.com/drogus/ember-aria`
-* `npm install`
-* `bower install`
+* `ember install:addon ember-aria`
 
 ## Mixins
 
