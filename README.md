@@ -1,17 +1,24 @@
-# Ember-aria
+# Ember-ARIA
 
-This README outlines the details of collaborating on this Ember addon.
+Ember-ARIA aims to provide primitives to use when creating accessible websites.
+Usually ARIA states and properties can be set automatically based on other
+properties, for example `aria-checked` may be obtained from `checked`.
 
 ## Installation
 
-* `git clone` this repository
+* `git clone https://github.com/drogus/ember-aria`
 * `npm install`
 * `bower install`
 
-## Running
+## Mixins
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+At the moment the following mixins are available:
+
+* `ember-aria/mixins/disabled-state` - sets the `ariaDisabled` property based on
+  the `disabled` proeprty, also adds it to `attributeBindings`
+* `ember-aria/mixins/checkbox-role` - sets `role` to `checkbox`, includes
+  `disabled-state` and sets the `ariaChecked` property based on the `checked`
+  property. Both `role` and `ariaChecked` are added to `attributeBindings`
 
 ## Running Tests
 
