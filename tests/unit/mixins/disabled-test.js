@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import DisabledMixin from 'ember-aria/mixins/disabled';
+import DisabledMixin from 'ember-aria/mixins/disabled-state';
 
 module('Disabled Mixin');
 
